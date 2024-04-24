@@ -1,0 +1,140 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.App-header {
+  background-color: brown;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(228, 148, 44);
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.App-link {
+  color: brown;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.App-link:hover {
+  color: burlywood  ;
+}
+
+.projects {
+  margin: 50px 0;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: brown;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects li {
+  margin: 10px;
+  background-color: rgb(228, 148, 44);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projects a {
+  color: brown;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.projects a:hover {
+  color: black;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.pagination button {
+  background-color: brown;
+  color: rgb(228, 148, 44);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: rgb(228, 148, 44);
+  color: brown;
+}
+
+.skills {
+  margin: 50px 0;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: brown;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills li {
+  margin: 10px;
+  background-color: rgb(228, 148, 44);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills a {
+  color: brown;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.skills a:hover {
+  color: #fb6161;
+}
+
+.project-page h1{
+  color: brown;
+}
+
+.project-page p{
+  color: brown;
+  font-size: larger;
+}
+
